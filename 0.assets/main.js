@@ -31,7 +31,7 @@ console.log(`El total de la compra es $${costoTotal}`);
 if(cantidadDeseada >= 5) {
     let porcentaje = (precioUnitario * 10) / 100; // calculo del 10% (la cantidad)
     let descuento = costoTotal - porcentaje; // el costo total del producto restandole el descuento
-    console.log(`Se le ha realizado un descuento del 10% (-$${porcentaje}), el costo total de su compra es $${descuento}`)
+    alert(`Se le ha realizado un descuento del 10% (-$${porcentaje}), el costo total de su compra es $${descuento}`)
 }
 
 else{
